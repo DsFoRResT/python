@@ -1,0 +1,20 @@
+1. Dastlab kompyuterimiz uchun GIT dasturini yuklab olamiz va o'rnatamiz.
+https://git-scm.com/downloads
+2. So'ngra GITHUB.com saytidan ro'yxatdan o'tamiz.
+https://github.com/signup?user_email=&source=form-home-signup
+3. Github.com saytidan yangi repository ochamiz (misol uchun DKREP deb nomlaymiz).
+4. kompyuterimizda yangi papkani ichida fayllarni yaratamiz.
+5. CMD qora oynasini ochamiz va u yerdan yuqoridagi papkani ichiga kiramiz.
+6. git init
+7. git config --global user.name "PalonchaPismadoncha"
+8. git config --global user.email kimdirbirnima@gmail.com
+9. 
+git commit -m "biron nima deb yozing"
+git branch -M main
+git remote add origin https://github.com/PalonchaPismadoncha/DKREP.git
+git push -u origin main
+10. github.com saytiga o'tib saxifani yangilaymiz va fayllar qo'shilgan bo'ladi.
+
+ISTISNO: agar siz birinchi marta github.com saytiga fayl joylamoqchi bo'lsangiz u holda oxirgi buyruqni yozganingizdan so'ng github.com sayti sizga kod va maxsus link jo'natadi.
+siz o'sha linkka kirib kodni yozishiz kerak va avtarizatsiya qilishiz kerak.
+keyingi safar esa bunday holat bo'lmaydi.
