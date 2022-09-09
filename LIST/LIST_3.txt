@@ -1,0 +1,41 @@
+Ds_FoRResT, [09.09.2022 21:01]
+https://t.me/dasturchilarklubi?livestream
+
+>_Sanjarbek{Dev}, [09.09.2022 22:15]
+In [24]: mylist = [1, 2, 3, 4, 5]
+
+In [25]: list2 = mylist[:]
+
+In [26]: list2
+Out[26]: [1, 2, 3, 4, 5]
+
+In [27]: list2[3] = 6
+
+In [28]: list2
+Out[28]: [1, 2, 3, 6, 5]
+
+In [29]: mylist
+Out[29]: [1, 2, 3, 4, 5]
+
+In [30]: mylist = [1, 2, 3, 4, 5]
+
+In [31]: list2 = mylist.copy()
+
+In [32]: list2
+Out[32]: [1, 2, 3, 4, 5]
+
+In [33]: list2[1] = 0
+
+In [34]: list2
+Out[34]: [1, 0, 3, 4, 5]
+
+In [35]: mylist
+Out[35]: [1, 2, 3, 4, 5]
+
+In [36]: print(mylist)
+[1, 2, 3, 4, 5]
+
+In [37]: print(*mylist)
+1 2 3 4 5
+
+In [38]: type(*mylist)
