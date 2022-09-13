@@ -1,0 +1,1 @@
+from .ikkisonni_y import summa
